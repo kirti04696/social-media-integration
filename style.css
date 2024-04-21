@@ -1,0 +1,53 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.content::before {
+  content: "";
+}
+
+.content::after {
+  content: "";
+}
+.hidden{
+  display: None;
+}
+.btn{
+  background-color: rgb(12, 62, 242);
+  border: none;
+  -webkit-appearance: none;
+  border-radius: 0 10px 10px 0;
+  padding: 0px 30px;
+  color: white;
+  width: 250px;
+}
+.logo{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  
+}
+.logo div{
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+.logo div img{
+  border-radius: 10px 0px 0px 10px;
+  background-color: rgb(12, 62, 242);
+  padding: 5px 0px 5px 10px;
+}
+.logo div, h3:hover{
+  cursor: pointer;
+}
+
+.google_pop_up{
+  position: absolute;
+  top: 50px;
+  right:20px;
+  background-color: red;
+  min-height: 100px;
+  min-width: 100px;
+}
